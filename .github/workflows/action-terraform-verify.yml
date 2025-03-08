@@ -1,6 +1,6 @@
 name: Validate terraform fmt
 on:
-  pull_request:
+  push:
     branches:
       - main
       - master
